@@ -1,0 +1,21 @@
+{
+  "name": "charts-vue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "axios": "^1.2.1",
+    "chart.js": "^4.0.1",
+    "ethers": "^5.7.2",
+    "vite": "^3.2.4",
+    "vue-chartjs": "^5.0.1"
+  }
+}
