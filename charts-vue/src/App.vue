@@ -1,5 +1,6 @@
 <script setup>
 import BurnChart from './components/BurnChart.vue'
+import SupplyChart from './components/SupplyChart.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import BurnChart from './components/BurnChart.vue'
 
   <main>
     <BurnChart />
+    <SupplyChart />
   </main>
 </template>
 

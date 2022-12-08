@@ -44,7 +44,7 @@ const options = {
 // functions that mutate state and trigger updates
 function getBlocks() {
     setInterval(async function () {
-    const blocks = (await get('http://localhost:3000/')).data
+    const blocks = (await get('http://localhost:3000/burn')).data
 
     let blockLabels = []
     let blockData = []
@@ -61,6 +61,7 @@ function getBlocks() {
                 label: 'Data One',
                 backgroundColor: '#f87979',
                 data: blockData,
+                borderColor: 'rgb(75, 192, 192)',
             },
         ],
     }
